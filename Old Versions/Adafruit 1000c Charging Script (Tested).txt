@@ -1,0 +1,16 @@
+import RPi.GPIO
+import time
+RPi.GPIO.setmode (RPi.GPIO.BCM)
+
+RPi.GPIO.setup(21, RPi.GPIO.IN, pull_up_down=RPi.GPIO.PUD_UP)
+
+while True:
+  if RPi.GPIO.input(21) == RPi.GPIO.LOW:
+      print ("Pin Low")
+      time.sleep(10)
+      os.system("sudo shutdown -h now")
+
+  if RPi.GPIO.input(21) == RPi.GPIO.HIGH:
+      now = time.strftime("%c")
+      print ("Pin High " + now )
+      time.sleep(60)
