@@ -5,6 +5,7 @@ This is a simple python script that safety shutdowns a [Raspberry Pi](https://ww
 ## How to use:
 Download the [source code](https://github.com/Austin-Daigle/Raspberry-Pi-PowerBoost-1000c-Safe-Shutdown-Script/blob/main/Adafruit%20shutdown%20script.py) from the repo, and modify the code as needed (change shutdown times, GPIO hardware settings, etc). Load the script into an installation of Linux in a Raspberry Pi, physically connect the systems (RPI and PowerBoost together), and set a chron job to have the program start on boot.
 
+Also: Older experimental developement version of the script are avaible [here](https://github.com/Austin-Daigle/Raspberry-Pi-PowerBoost-1000c-Safe-Shutdown-Script/tree/main/Old%20Versions).
 
 The white wire is the low battery out ("LBO") terminal on the PowerBoost 1000c.
 ![a42d9674d56924ce-photo](https://user-images.githubusercontent.com/100094056/193486125-56772d65-1140-4c9c-aa8a-389c57dbe32c.jpeg)
