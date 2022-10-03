@@ -10,7 +10,7 @@ The white wire is the low battery out ("LBO") terminal on the PowerBoost 1000c.
 ![a42d9674d56924ce-photo](https://user-images.githubusercontent.com/100094056/193486125-56772d65-1140-4c9c-aa8a-389c57dbe32c.jpeg)
 
 
-Here is the Python script:
+## Here is the Python script:
 
     import RPi.GPIO
     import time
